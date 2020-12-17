@@ -1,0 +1,87 @@
+body{
+    font-style:inherit;
+}
+.top{
+    height:50px;
+    
+        color:rgb(29, 201, 29);
+    font-size:30px;
+    padding:20px 10px;
+    
+}
+
+.button1{
+    height:30px;
+    width:70px;
+    color:white;
+    background-color:rgb(30, 172, 30);
+    float:right;  
+    border:none;
+    margin-right:25px;
+    padding:2px 0px 0px 0px;
+    border-radius: 10%;
+}
+.headertext{
+    float:right;
+    margin-right:10px;
+    padding=5px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.button2{
+    
+    height:30px;
+    width:70px;
+    color:white;
+    background-color:rgb(30, 172, 30);
+    float:right;
+    border:none; 
+    margin-right:10px;
+    padding:2px 0px 0px 0px;
+    border-radius: 10%;
+}
+.Horizontalbar{
+    
+   background-color:grey;
+   height:40px;
+   width=100%;
+}
+.Horizontalbar ul li{
+    display:inline;
+    margin-right:65px;
+    margin-left:-40px;
+    font-size:17px;
+    float:left;
+    padding: 10px 0px 5px 5px ;
+    
+}
+#Horizontalbar1 {
+    display:inline;
+    margin-right:25px;
+    margin-left:20px;
+    font-size:17px;
+    float:right;
+    
+    padding: 10px 0px 5px 5px ;
+}
+#Horizontalbar2 {
+    display:inline;
+    margin-right:20px;
+    margin-left:20px;
+    font-size:17px;
+    float:right;
+    
+}
+#Horizontalbar3 {
+    display:inline;
+    margin-right:20px;
+    margin-left:20px;
+    font-size:17px;
+    float:right;
+   
+}
+.Horizontalbar select {
+    font-size:15px;
+    border:none;
+    
+}
