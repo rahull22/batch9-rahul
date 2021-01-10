@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  float: left;
+  width: 13%;
+  height: 1100px;
+  background:lightgray;
+  padding: 20px;
+  font-size: 18px;
+  color:black;
+  overflow:auto;
+  border-collapse: collapse;
+  position:fixed;
+  }
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   }
+li a {
+  display: block;
+  text-align: left;
+  color:rgb(12, 12, 12);
+  padding: 5px 10px;
+  text-decoration: none;
+}
+ul a:hover {background-color: rgb(87, 163, 163);
+     }
+     ul a:active{
+        background-color:#57da7e ;
+     }
+ aside {
+  width: 15%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style:Arial;
+  background-color:lightgray;
+  }
+h1{
+        color:#4CAF50;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    .text-right{
+        text-align: right;
+        float: left;
+           }
+    button{
+        background-color: #4CAF50;
+        color: white;
+        text-align:right;
+        font-size: 20px;
+        border-color:#4CAF50;
+}
+.button1{
+  height:30px;
+  width:90px;
+  color:white;
+  background-color:rgb(27, 230, 145);
+  float:right;  
+  border:none;
+  margin-right:25px;
+  padding:2px 0px 0px 0px;
+  border-radius: 5%;
+}
+.button2{
+    
+  height:30px;
+  width:70px;
+  color:white;
+  background-color:rgb(27, 230, 145);
+  float:right;
+  border:none; 
+  margin-right:10px;
+  padding:2px 0px 0px 0px;
+  border-radius: 5%;
+}
+.top{
+  height:50px;
+  
+      color: rgb(27, 230, 145);
+  font-size:30px;
+  padding:20px 10px;
+  
+}
+.headertext{
+  float:right;
+  margin-right:10px;
+  padding:5px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+table
+       th:hover {background-color:  #4CAF50;
+     }
+     th ,.EXERCISES{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  background-color: rgb(99, 96, 96);
+  color: white;
+  font-family: segoe,arial,sans-serif;
+  font-size: 17px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.EXERCISES{
+
+  font-weight: bold;
+}
+p{
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+text-indent: 40px;
+
+}
+h1,h2{
+  color:#4CAF50;
+}
+footer {
+  background-color: rgb(27, 230, 145);
+  padding: 0px;
+  text-align: center;
+  color: white;
+  bottom:0px;
+  width:100%;
+}
+.menu{
+  display:none;
+}
+@media screen and (max-width: 600px) {
+  
+  .menu{
+    display:block;
+  }
+  .element{
+      display:none;
+      width:1000px;
+      
+}
+aside{
+  display: none;
+}
+.lal, .EXERCISES{
+  display:none;
+}
+}
+@media screen and (max-width: 900px) and  (min-width:670px){
+  aside{
+    width:min-content;
+    display: block;
+  }
+  .menu{
+    display:block;
+  }
+  
+  .lal, .EXERCISES{
+  display:none;
+}
+.element{
+      display:none;
+      
+      
+}
+
+
+
+
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: -20px;
+}
+.sticky1{
+  
+  position: sticky;
+  top: -50px;
+}
